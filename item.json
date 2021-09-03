@@ -1,0 +1,35 @@
+[
+  // { "type": "escape", "align": "left" },
+  // --- iTunes ---
+  {
+    "type": "appleScriptTitledButton",
+    "source": {
+      "inline":
+        "return \"XXXXXXX\""
+    },
+    "align":"center"
+  },
+  // --- Spotify ---
+  // --- VOX ---
+  // {
+  //   "type": "appleScriptTitledButton",
+  //   "source": {
+  //     "inline":
+  //       "if application \"VOX\" is running then\rtell application \"VOX\"\rif player state is 1 then\rreturn (get artist) & \" – \" & (get track)\relse\rreturn \"\"\rend if\rend tell\rend if\rreturn \"\"\r"
+  //   },
+  //   "action": "appleScript",
+  //   "actionAppleScript": {
+  //     "inline":
+  //       "if application \"VOX\" is running then\rtell application \"VOX\"\rif player state is 1 then\rnext\rend if\rend tell\rend if\r"
+  //   },
+  //   "refreshInterval": 1,
+  //   "image": {
+  //     "base64":
+  //       "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"
+  //   }
+  // },
+  // { "type": "dock", "align": "left"},
+  { "type":"network","align":"right","bordered":false},
+  { "type": "battery", "align": "right", "bordered": false,"width":50},
+  { "type": "timeButton", "align": "right", "bordered": false,"formatTemplate": "HH:mm:ss","width":60}
+]
